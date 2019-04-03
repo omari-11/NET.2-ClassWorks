@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4CBEC1A2-4922-4DC2-BD6E-D46345373B5E}</ProjectGuid>
+    <ProjectGuid>{8265ECC7-0B70-48A7-8681-978A9731337F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ClassWork2</RootNamespace>
-    <AssemblyName>ClassWork2</AssemblyName>
+    <RootNamespace>ClassWork3</RootNamespace>
+    <AssemblyName>ClassWork3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ChangeString.cs" />
+    <Compile Include="corect.cs" />
+    <Compile Include="count.cs" />
+    <Compile Include="FirstDelegate.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="message.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
